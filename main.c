@@ -53,7 +53,7 @@ printf("The area is: %d\n", area);*/
 
 //####################################
 
-int num = 20;
+/*int num = 20;
 float myfloat = 20.2;
 double mydouble = 20.3234;
 char myChar = 'A';
@@ -62,7 +62,21 @@ char myChar = 'A';
 printf("%lu\n", sizeof(num));
 printf("%lu\n", sizeof(myfloat));
 printf("%lu\n", sizeof(mydouble));
-printf("%lu\n", sizeof(myChar));
+printf("%lu\n", sizeof(myChar));*/
+
+
+//####################################
+
+
+const int num = 18;
+const int num2 = 20;
+const int sum = num * num2;
+
+printf("resultatet blir: %d\n", sum);
+
+
+
+
 
 
 

@@ -68,11 +68,22 @@ printf("%lu\n", sizeof(myChar));*/
 //####################################
 
 
-const int num = 18;
+/*const int num = 18;
 const int num2 = 20;
 const int sum = num * num2;
 
 printf("resultatet blir: %d\n", sum);
+
+int num3 = 100 + 200;
+
+printf("%d\n", num3);*/
+
+
+//####################################
+
+
+
+
 
 
 

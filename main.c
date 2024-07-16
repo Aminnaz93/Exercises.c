@@ -80,10 +80,71 @@ printf("%d\n", num3);*/
 
 //####################################
 
-int a = 10;
+/*int a = 10;
 int b = 20;
 
-printf("%d\n", a > b);
+printf("%d\n", a > b);*/
+
+
+//####################################
+
+/*bool isProgrammingFun = true;
+bool isFishTasty = false;
+
+
+printf("%d\n", isProgrammingFun);
+printf("%d\n", isFishTasty);
+
+printf("\n");
+
+int age = 25;
+int votingAge = 18;
+
+printf("%d\n", age >= votingAge);*/
+
+//####################################
+
+
+/*int age;
+int votingAge = 18;
+
+printf("Type in your age: ");
+scanf("%d",&age );
+
+if(age >= votingAge){
+    printf("You can vote!\n");
+}
+else{
+    printf("You cannot vote...\n");
+}*/
+
+//####################################
+
+   /*int number;
+
+    printf("Välkommen! Ange ett heltal (avsluta med 0 eller ett negativt tal): ");
+    scanf("%d", &number);
+
+    while (number > 0) {
+        if (number > 0) {
+            printf("%d är ett positivt tal.\n", number);
+        } else if (number < 0) {
+            printf("%d är ett negativt tal.\n", number);
+        } else {
+            printf("Du angav noll.\n");
+        }
+
+        printf("Ange ett nytt heltal (avsluta med 0 eller ett negativt tal): ");
+        scanf("%d", &number);
+    }
+
+    if(number == 0 || number < 0){
+        printf("Programmet avslutas. Tack för du använde det...\n");
+    }*/
+
+
+//####################################
+
 
 
 

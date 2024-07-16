@@ -146,7 +146,38 @@ else{
 //####################################
 
 
+int number;
 
+printf("Type in a number: ");
+scanf("%d", &number);
+
+switch (number)
+{
+case 1:
+    printf("Its Monday!");
+    break;
+case 2:
+    printf("Its Tuesday!");
+    break;
+case 3:
+    printf("Its Wednsday!");
+    break;
+case 4:
+    printf("Its Thursday!");
+    break;
+case 5:
+    printf("Its Friday!");
+    break;
+case 6:
+    printf("Its Saturday!");
+    break;
+case 7:
+    printf("Its Sunday!");
+    break;
+default:
+    printf("You typed in another thing....");
+    break;
+}
 
 
 return 0;   

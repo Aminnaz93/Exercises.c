@@ -226,12 +226,89 @@ for(int i = 0; i < 6; i++){
 //####################################
 
 
-char letters[] = {'a', 'b', 'c' , 'd'};
+/*char letters[] = {'a', 'b', 'c' , 'd'};
 int lenght = sizeof(letters) / sizeof(letters[0]);
 
 for(int i = 0; i < lenght; i++){
     printf("%c\n", letters[i]);
+}*/
+
+//####################################
+
+
+/*char greeting[] = ("Hello World");
+
+int lenght = sizeof(greeting) / sizeof(greeting[0]);
+
+printf("%s\n", greeting);
+
+
+printf("%c\n", greeting[0]);
+
+for(int i = 0; i < lenght; i++){
+    printf("%c", greeting[i]);
+}*/
+
+//####################################
+
+
+/*char message[] = {"Hello my friend"};
+char name[] = {"Nazari"};
+
+printf("%s %s", message,name);*/
+
+//####################################
+
+/*int num;
+printf("Type in the first integer: ");
+scanf("%d", &num);
+
+int num2;
+printf("Type in the other integer: ");
+scanf("%d", &num2);
+
+int sum = num + num2;
+
+printf("The sum of %d + %d = %d\n", num,num2,sum);*/
+
+//####################################
+
+
+printf("Welcome to the guessing game! ");
+
+int attempts = 0;
+int secretNumber = 4;
+int maxAttempts = 3;
+int correctGuess = 0;
+int guess;
+
+while (attempts < maxAttempts && !correctGuess){
+    printf("\n");
+   printf("Guess a number from 1-10: ");
+   scanf("%d", &guess);
+
+   if(guess < 1 || guess > 10){
+        printf("Wrong guess... Guess again: ");
+        continue;
+   }
+
+   attempts++;
+
+   if(guess == secretNumber){
+        printf("Congratulation, you find the secret number: %d\n", secretNumber);
+        correctGuess = 1;
+   }
+   else{
+    printf("Wrong number, Guess again...\n");
+   }
+
 }
+
+if(!correctGuess){
+    printf("All attempts are finished. The secret number is: %d\n", secretNumber);
+
+}
+
 
 
 return 0;   

@@ -1,9 +1,7 @@
 #include <stdio.h>
+#include <stdbool.h>
+#include "function.c"
 
-
-int add(int a, int b){
-    return a + b;
-}
 
 int main() {
 
@@ -86,13 +84,6 @@ int a = 10;
 int b = 20;
 
 printf("%d\n", a > b);
-
-
-
-
-
-
-
 
 
 

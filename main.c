@@ -146,7 +146,7 @@ else{
 //####################################
 
 
-int number;
+/*int number;
 
 printf("Type in a number: ");
 scanf("%d", &number);
@@ -177,8 +177,63 @@ case 7:
 default:
     printf("You typed in another thing....");
     break;
+}*/
+
+//####################################
+
+/*int number = 0;
+
+while (number < 5){
+    printf("%d\n", number);
+    number++;
+}*/
+
+//####################################
+
+
+/*for (int i = 1; i < 11; i++){
+    if(i == 4){
+        printf("\n");
+        continue;
+    }
+    printf("%d\n", i);
+}
+
+printf("\n");
+
+int j = 0;
+
+while (j <= 10){
+    if(j == 4){
+        j++;
+        printf("\n");
+        continue;
+    }
+    printf("%d\n", j);
+    j = j + 1;
+}*/
+
+//####################################
+
+
+/*int number[6] = {2,3,4,6,7,8};
+int lenght = sizeof(number) / sizeof(number[0]);
+
+for(int i = 0; i < 6; i++){
+    printf("%d\n", number[i]);
+}*/
+
+//####################################
+
+
+char letters[] = {'a', 'b', 'c' , 'd'};
+int lenght = sizeof(letters) / sizeof(letters[0]);
+
+for(int i = 0; i < lenght; i++){
+    printf("%c\n", letters[i]);
 }
 
 
 return 0;   
+
 }

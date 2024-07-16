@@ -2,7 +2,7 @@
 triple:          'arm64-apple-darwin'
 binary-path:     '/Users/aminnazari/Desktop/Program C/Exercises/output/main'
 relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x0, symBinAddr: 0x100003DBC, symSize: 0x20 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x0, symBinAddr: 0x100003DBC, symSize: 0x20 }
-  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x20, symBinAddr: 0x100003DDC, symSize: 0xF8 }
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x0, symBinAddr: 0x100003EDC, symSize: 0x20 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x0, symBinAddr: 0x100003EDC, symSize: 0x20 }
+  - { offsetInCU: 0x83, offset: 0x83, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x20, symBinAddr: 0x100003EFC, symSize: 0x90 }
 ...

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 #include "function.c"
 
 
@@ -274,7 +275,7 @@ printf("The sum of %d + %d = %d\n", num,num2,sum);*/
 //####################################
 
 
-printf("Welcome to the guessing game! ");
+/*printf("Welcome to the guessing game! ");
 
 int attempts = 0;
 int secretNumber = 4;
@@ -307,8 +308,24 @@ while (attempts < maxAttempts && !correctGuess){
 if(!correctGuess){
     printf("All attempts are finished. The secret number is: %d\n", secretNumber);
 
-}
+}*/
 
+
+//####################################
+
+
+char greetings[20] = "Hello";
+char world[20] = "World";
+
+printf("%s\n", greetings);
+printf("%d\n", strlen(greetings));
+printf("%d\n", sizeof(greetings));
+
+strcat(greetings, world);
+strcpy(world,greetings);
+
+printf("%s\n", greetings);
+printf("%s\n", world);
 
 
 return 0;   

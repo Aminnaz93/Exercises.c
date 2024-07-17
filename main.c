@@ -239,15 +239,15 @@ for(int i = 0; i < lenght; i++){
 
 /*char greeting[] = ("Hello World");
 
-int lenght = sizeof(greeting) / sizeof(greeting[0]);
+int length = sizeof(greeting) / sizeof(greeting[0]);
 
 printf("%s\n", greeting);
 
 
 printf("%c\n", greeting[0]);
 
-for(int i = 0; i < lenght; i++){
-    printf("%c", greeting[i]);
+for(int i = 0; i < length; i++){
+    printf("%c\n", greeting[i]);
 }*/
 
 //####################################
@@ -314,7 +314,7 @@ if(!correctGuess){
 //####################################
 
 
-char greetings[20] = "Hello";
+/*char greetings[20] = "Hello";
 char world[20] = "World";
 
 printf("%s\n", greetings);
@@ -325,9 +325,72 @@ strcat(greetings, world);
 strcpy(world,greetings);
 
 printf("%s\n", greetings);
-printf("%s\n", world);
+printf("%s\n", world);*/
 
 
-return 0;   
+//####################################
 
+
+/*char name[100];
+
+printf("Enter your name: ");
+fgets(name,sizeof(name), stdin);
+
+printf("Your name is: %s\n", name);*/
+
+//####################################
+
+/*char name[100];
+
+printf("Enter your full name: ");
+fgets(name, sizeof(name), stdin);
+
+
+printf("Hello %s\n", name);*/
+
+
+//####################################
+
+    
+    /*int age = 20;
+    int *ptr1 = &age; // Pekare till age
+   
+
+    // Korrekt sätt att ändra värdet via pekaren
+    *ptr1 = 30;
+
+    printf("%p\n", &age);
+    printf("%d\n", age);
+    printf("%d\n", *ptr1);*/
+
+    //####################################
+
+    /*int number[] = {1,2,3,4,5};
+    int *ptr1 = number;
+
+    ptr1[0] = 100;
+    number[1] = 2000;
+
+    int length = sizeof(number) / sizeof(number[0]);
+
+ 
+
+    for(int i = 0; i < length; i++){
+        printf("%d\n", ptr1[i]);
+    }*/
+
+    //####################################
+
+    int userInput;
+    greeting(userInput);
+
+
+
+
+
+
+    return 0;
 }
+
+
+

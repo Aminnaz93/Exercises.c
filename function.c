@@ -36,6 +36,10 @@ int generateRandomNumber(int min, int max){
     return rand() % (max - min + 1) + min;
 }
 
+
+
+
+
 void guessNumber(int secretNumber, int maxAttempts){
     int guess;
     int attempts = 0;

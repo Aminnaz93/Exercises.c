@@ -381,16 +381,23 @@ printf("Hello %s\n", name);*/
 
     //####################################
 
-    int userInput;
-    greeting(userInput);
+    /*int userInput;
+    greeting(userInput);*/
+
+    //####################################
 
 
+    char name[100];
 
+    printf("Enter a name: ");
+    fgets(name, sizeof(name), stdin);
 
+    myFunction(name);
 
 
     return 0;
 }
+
 
 
 

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
+#include <stdlib.h>
+#include <time.h>
 #include "function.c"
 
 
@@ -387,13 +389,36 @@ printf("Hello %s\n", name);*/
     //####################################
 
 
-    char name[100];
+    /*char name[100];
 
     printf("Enter a name: ");
     fgets(name, sizeof(name), stdin);
 
-    myFunction(name);
+    myFunction(name);*/
 
+    //####################################
+
+
+    /*char name[100];
+    int age;
+
+    printf("Enter your name: ");
+    fgets(name, sizeof(name), stdin);
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+
+    myFunctionTest(name,age);*/
+
+    //####################################
+
+    int secretNumber = generateRandomNumber(1,10);
+
+    int maxAttempts = 3;
+
+    guessNumber(secretNumber, maxAttempts);
+
+   
 
     return 0;
 }

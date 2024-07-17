@@ -6,6 +6,14 @@
 #include "function.c"
 
 
+    struct Student{
+        char name[100];
+        int age;
+        int height;
+        
+    };
+
+
 int main() {
 
 /*printf("Hello\n");
@@ -412,15 +420,26 @@ printf("Hello %s\n", name);*/
 
     //####################################
 
-    int secretNumber = generateRandomNumber(1,10);
+    /*int secretNumber = generateRandomNumber(1,10);
 
     int maxAttempts = 3;
 
-    guessNumber(secretNumber, maxAttempts);
+    guessNumber(secretNumber, maxAttempts);*/
     
 
    //####################################
 
+    struct Student Student1 = {"Amin", 31, 181};
+
+    printf("%s\n", Student1.name);
+    printf("%d\n", Student1.age);
+    printf("%d\n", Student1.height);
+
+
+
+    
+    
+    
     return 0;
 }
 

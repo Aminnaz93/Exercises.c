@@ -3,15 +3,8 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
+#include "struct.c"
 #include "function.c"
-
-
-    struct Student{
-        char name[100];
-        int age;
-        int height;
-        
-    };
 
 
 int main() {
@@ -430,10 +423,17 @@ printf("Hello %s\n", name);*/
    //####################################
 
     struct Student Student1 = {"Amin", 31, 181};
+    struct Student Student2 = {"Zizou", 44, 191};
 
     printf("%s\n", Student1.name);
     printf("%d\n", Student1.age);
     printf("%d\n", Student1.height);
+
+    printf("\n");
+
+    printf("%s\n", Student2.name);
+    printf("%d\n", Student2.age);
+    printf("%d\n", Student2.height);
 
 
 

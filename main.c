@@ -422,7 +422,7 @@ printf("Hello %s\n", name);*/
 
    //####################################
 
-    struct Student Student1 = {"Amin", 31, 181};
+    /*struct Student Student1 = {"Amin", 31, 181};
     struct Student Student2 = {"Zizou", 44, 191};
 
     printf("%s\n", Student1.name);
@@ -433,7 +433,38 @@ printf("Hello %s\n", name);*/
 
     printf("%s\n", Student2.name);
     printf("%d\n", Student2.age);
-    printf("%d\n", Student2.height);
+    printf("%d\n", Student2.height);*/
+
+    //#################################### 
+
+
+    int num = 2;
+    int num2 = 4;
+
+    int sum = num + num2;
+
+
+    printf("Summan är: %d\n", sum);
+
+
+    if (num == num2){
+        printf("HEllo\n");
+    } 
+    else if (num < num2){
+        printf("Bajs\n");
+    } else{
+        printf("Fuck off\n");
+    }
+
+    printf("\n");
+
+    for(int i = 1; i < 11; i++){
+        printf("%d\n", i);
+    }    
+
+
+
+
 
 
 
